@@ -65,12 +65,13 @@ Once that json file was generated and saved onto our disk, we needed to be able 
 
 
 
-## 1: The front-end UI part of the web page was made w/ HTML5/CSS3. 
+## 1: We designed the front-end UI part of the web page into a 2 coluwn grid. 
+We wanted to showcase a source's image, title, and summary. Then next to each image and summary text, a QR code. This would help the curator be able to scan only the sources that were considered the most valuable and then help improve the briefing process over time.
 
-## 2: Then the data that IBM Watson Discovery curated and was saved as a Json file by Knime platform was parsed and injected into the HTML markup with EJS. (A JS templating language.) 
+## 2: Then the data that IBM Watson Discovery curated and was saved as a Json file by Knime platform. This was then parsed and injected into the HTML markup with EJS. 
   
   
-## 3: At this point, the single file app that I created with EXPRESS and Node.js was able to showcase the final result in our webpage here.  
+## 3: At this point, the single file app that was created with EXPRESS and Node.js was able to showcase the final result in our webpage here.  
 
 ## 4: You can see that sample data injected as the text in the first article summary in this web page. 
 
