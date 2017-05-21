@@ -8,7 +8,7 @@ Slack Channel: https://sea-expeditionhacks.slack.com/messages/C5F94RLC8/search/p
 	(KNIME integrates various components for machine learning and data mining) 
 
 
-	### 1) String Input 
+## 1: String Input 
 		This Knime node is a variable that holds our sample keyword string of "North Koreo Missile" that we want to search news on.
 
 		### 2) String Manipulation
