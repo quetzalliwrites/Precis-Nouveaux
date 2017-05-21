@@ -69,7 +69,7 @@ Once that json file was generated and saved onto our disk, we needed to be able 
 
 
 
-## 1: We designed the front-end UI part of the web page into a 2 coluwn grid. 
+## 1: We designed the front-end UI part of the web page into a 2 column grid. 
 We wanted to showcase a source's image, title, and summary. Then next to each image and summary text, a QR code. This would help the curator be able to scan only the sources that were considered the most valuable and then help improve the briefing process over time.
 
 ## 2: Then the data that IBM Watson Discovery curated and was saved as a Json file by Knime platform. This was then parsed and injected into the HTML markup with EJS. 
