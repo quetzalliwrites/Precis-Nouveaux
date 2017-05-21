@@ -1,6 +1,10 @@
 # Précis-Nouveaux
 
-Slack Channel: https://sea-expeditionhacks.slack.com/messages/C5F94RLC8/search/precis%20nouveaux/ 
+Slack Channel: 
+https://sea-expeditionhacks.slack.com/messages/C5F94RLC8/search/precis%20nouveaux/ 
+
+DevPost Team Project Submission: 
+https://devpost.com/software/precisnouveaux-aq61wb
 
 
 
