@@ -37,7 +37,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="https://gateway.watsonplatform.net/discovery/api/v1/environments/dafbef27-5e21-4ec7-9c0e-90fad1d98d27/collections/0ea23672-a855-4ad8-b214-5efa5e3f9df3/query?version=2016-11-07&amp;query=mexican%20border%20wall&amp;count=20&amp;offset=0&amp;aggregation=&amp;filter=&amp;passages=false&amp;highlight=true&amp;return="/>
+<entry key="StringCell" type="xstring" value="https://gateway.watsonplatform.net/discovery/api/v1/environments/dafbef27-5e21-4ec7-9c0e-90fad1d98d27/collections/0ea23672-a855-4ad8-b214-5efa5e3f9df3/query?version=2016-11-07&amp;query=Candian%20border%20wall&amp;count=20&amp;offset=0&amp;aggregation=&amp;filter=&amp;passages=false&amp;highlight=true&amp;return="/>
 </config>
 </config>
 </config>

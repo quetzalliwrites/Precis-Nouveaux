@@ -58,7 +58,7 @@
 <entry key="OverwriteFile" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.birt.nodes.html.HtmlReportNodeFactory"/>
 <entry key="node-name" type="xstring" value="Table to HTML"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME HTML/PDF Writer Nodes"/>
@@ -71,11 +71,11 @@
 <entry key="node-feature-version" type="xstring" value="3.3.0.v201610201139"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table to HTML"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e427e90f-337f-4a48-8fc8-e45c717d6be8"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

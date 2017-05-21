@@ -33,7 +33,7 @@
 <entry key="aggrColumn" type="xstring" isnull="true" value=""/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.viz.pie.node.fixed.FixedPieNodeFactory"/>
 <entry key="node-name" type="xstring" value="Pie chart"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -46,11 +46,11 @@
 <entry key="node-feature-version" type="xstring" value="0.0.0"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Pie chart"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="175387ad-5022-4eb9-b4b6-06c7f88aae92"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

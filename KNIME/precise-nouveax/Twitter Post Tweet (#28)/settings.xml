@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="text" type="xstring" value=""/>
+<config key="selected_tweet_fields_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="selected_tweet_fields">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="Tweet"/>
+<entry key="1" type="xstring" value="Tweet ID"/>
+<entry key="2" type="xstring" value="Time"/>
+<entry key="3" type="xstring" value="Favorited Count"/>
+<entry key="4" type="xstring" value="Retweeted Count"/>
+<entry key="5" type="xstring" value="Is Favourited"/>
+<entry key="6" type="xstring" value="Is Retweeted"/>
+<entry key="7" type="xstring" value="Is Retweet"/>
+<entry key="8" type="xstring" value="Retweet from"/>
+<entry key="9" type="xstring" value="Geo Location"/>
+<entry key="10" type="xstring" value="Country"/>
+</config>
+<config key="selected_user_fields_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="selected_user_fields">
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xstring" value="User (Screen Name)"/>
+<entry key="1" type="xstring" value="Profile Image"/>
+<entry key="2" type="xstring" value="Name"/>
+<entry key="3" type="xstring" value="ID"/>
+<entry key="4" type="xstring" value="Description"/>
+<entry key="5" type="xstring" value="URL"/>
+<entry key="6" type="xstring" value="Creation Time"/>
+<entry key="7" type="xstring" value="Language"/>
+<entry key="8" type="xstring" value="Location"/>
+<entry key="9" type="xstring" value="Time Zone"/>
+<entry key="10" type="xstring" value="Statuses Count"/>
+<entry key="11" type="xstring" value="Followers Count"/>
+<entry key="12" type="xstring" value="Friends Count"/>
+<entry key="13" type="xstring" value="Favourites Count"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.twitter.api.nodes.tweets.TwitterTweetsFactory"/>
+<entry key="node-name" type="xstring" value="Twitter Post Tweet"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Twitter API Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.twitter.api"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME.com AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.3.0.v201607181158"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Social Media Connectors (Twitter &amp; Google)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.socialmedia.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.3.0.v201611211431"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Twitter Post Tweet"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

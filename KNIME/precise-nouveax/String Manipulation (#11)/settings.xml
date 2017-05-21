@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="expression" type="xstring" value="replace( $column1$, &quot;&lt;SEARCH_STRING&gt;&quot;, $${Ssearch-string}$$)"/>
+<entry key="expression" type="xstring" value="replace(replace($column1$, &quot;&lt;SEARCH_STRING&gt;&quot;, $${Ssearch-string}$$),&quot; &quot; ,&quot;%20&quot;)"/>
 <entry key="replaced_column" type="xstring" value="new column"/>
 <entry key="append_column" type="xboolean" value="false"/>
 <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -40,6 +40,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="94f545d1-ab90-4a16-bb84-58a3d4f8bb44"/>
+<entry key="file_store_id" type="xstring" value="2cc35efd-d08a-4780-914f-b6cc53dca5ef"/>
 </config>
 </config>

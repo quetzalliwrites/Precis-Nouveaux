@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="olsonrc"/>
 <entry key="authored-when" type="xstring" value="2017-05-20 18:07:15 -0700"/>
 <entry key="lastEdited-by" type="xstring" value="olsonrc"/>
-<entry key="lastEdited-when" type="xstring" value="2017-05-21 06:33:09 -0700"/>
+<entry key="lastEdited-when" type="xstring" value="2017-05-21 10:37:05 -0700"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -119,7 +119,7 @@
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="644"/>
-<entry key="1" type="xint" value="377"/>
+<entry key="1" type="xint" value="357"/>
 <entry key="2" type="xint" value="79"/>
 <entry key="3" type="xint" value="79"/>
 </config>
@@ -329,6 +329,22 @@
 <entry key="0" type="xint" value="464"/>
 <entry key="1" type="xint" value="357"/>
 <entry key="2" type="xint" value="135"/>
+<entry key="3" type="xint" value="79"/>
+</config>
+</config>
+</config>
+<config key="node_28">
+<entry key="id" type="xint" value="28"/>
+<entry key="node_settings_file" type="xstring" value="Twitter Post Tweet (#28)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="644"/>
+<entry key="1" type="xint" value="457"/>
+<entry key="2" type="xint" value="125"/>
 <entry key="3" type="xint" value="79"/>
 </config>
 </config>

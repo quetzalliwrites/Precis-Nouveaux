@@ -6,13 +6,13 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="search-string"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="mexican%20border%20wall"/>
+<entry key="value" type="xstring" value="Candian border wall"/>
 </config>
 <config key="Variable_1">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="search-string"/>
 <entry key="class" type="xstring" value="STRING"/>
-<entry key="value" type="xstring" value="mexican%20border%20wall"/>
+<entry key="value" type="xstring" value="Candian border wall"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -20,7 +20,7 @@
 </config>
 <config key="model">
 <config key="defaultValue">
-<entry key="string" type="xstring" value="mexican%20border%20wall"/>
+<entry key="string" type="xstring" value="Candian border wall"/>
 </config>
 <entry key="label" type="xstring" value="Label"/>
 <entry key="description" type="xstring" value="Enter Description"/>
@@ -61,6 +61,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="ba9b674d-04aa-49e8-845e-8912c0151b92"/>
+<entry key="file_store_id" type="xstring" value="d7b7796b-e79a-4842-ab77-cf76955090c2"/>
 </config>
 </config>
