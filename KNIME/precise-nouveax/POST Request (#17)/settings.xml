@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="Use constant URI" type="xboolean" value="true"/>
+<entry key="Constant URI" type="xstring" value="https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27"/>
+<entry key="URI column" type="xstring" isnull="true" value=""/>
+<entry key="delay_enabled" type="xboolean" value="false"/>
+<entry key="delay" type="xlong" value="0"/>
+<entry key="concurrency" type="xint" value="1"/>
+<entry key="SSL ignore hostname errors" type="xboolean" value="false"/>
+<entry key="SSL trust all" type="xboolean" value="false"/>
+<entry key="Fail on connection problems" type="xboolean" value="false"/>
+<entry key="Fail on HTTP errors" type="xboolean" value="false"/>
+<config key="Request header keys">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value=""/>
+<entry key="1" type="xstring" value="Content-Type"/>
+</config>
+<config key="Request header key selector">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value=""/>
+<entry key="1" type="xstring" value="application/json"/>
+</config>
+<config key="Request header key kind">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Constant"/>
+<entry key="1" type="xstring" value="Constant"/>
+</config>
+<entry key="Extract all response fields" type="xboolean" value="false"/>
+<config key="Response header keys">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Status"/>
+<entry key="1" type="xstring" value="Content-Type"/>
+</config>
+<config key="Response header column name">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="Status"/>
+<entry key="1" type="xstring" value="Content type"/>
+</config>
+<config key="Response header column type">
+<entry key="array-size" type="xint" value="2"/>
+<config key="0">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<config key="1">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+</config>
+<entry key="Body column name" type="xstring" value="body"/>
+<config key="None"/>
+<entry key="None_enabled" type="xboolean" value="false"/>
+<config key="NTLM">
+<config key="NTLM auth_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="NTLM auth">
+<entry key="credentials" type="xstring" isnull="true" value=""/>
+<entry key="username" type="xstring" value=""/>
+<entry key="password" type="xpassword" isnull="true" value=""/>
+<entry key="selectedType" type="xstring" value="USER_PWD"/>
+</config>
+</config>
+<entry key="NTLM_enabled" type="xboolean" value="false"/>
+<config key="Basic">
+<config key="BASIC auth_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="BASIC auth">
+<entry key="credentials" type="xstring" isnull="true" value=""/>
+<entry key="username" type="xstring" value="cfe0f8a0-e257-40bd-ad7a-94df213e24b8"/>
+<entry key="password" type="xpassword" value="01B21EB85A7EA405A121081DA04211BB236B0B470AFFD046A774400B51ACFD81B8"/>
+<entry key="selectedType" type="xstring" value="USER_PWD"/>
+</config>
+</config>
+<entry key="Basic_enabled" type="xboolean" value="true"/>
+<config key="Digest">
+<config key="Digest auth_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="Digest auth">
+<entry key="credentials" type="xstring" isnull="true" value=""/>
+<entry key="username" type="xstring" value=""/>
+<entry key="password" type="xpassword" isnull="true" value=""/>
+<entry key="selectedType" type="xstring" value="USER_PWD"/>
+</config>
+</config>
+<entry key="Digest_enabled" type="xboolean" value="false"/>
+<entry key="follow redirects" type="xboolean" value="true"/>
+<entry key="timeout" type="xint" value="2"/>
+<entry key="Use constant request body" type="xboolean" value="true"/>
+<entry key="Constant request body" type="xstring" value="{%%00010  &quot;text&quot;: &quot;IBM is an American multinational technology company headquartered in Armonk, New York, United States, with operations in over 170 countries.&quot;,%%00010  &quot;features&quot;: {%%00010    &quot;entities&quot;: {%%00010      &quot;emotion&quot;: true,%%00010      &quot;sentiment&quot;: true,%%00010      &quot;limit&quot;: 2%%00010    },%%00010    &quot;keywords&quot;: {%%00010      &quot;emotion&quot;: true,%%00010      &quot;sentiment&quot;: true,%%00010      &quot;limit&quot;: 2%%00010    }%%00010  }%%00010}"/>
+<entry key="Request body column" type="xstring" isnull="true" value=""/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.rest.nodes.post.RestPostNodeFactory"/>
+<entry key="node-name" type="xstring" value="POST Request"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME REST Client Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.rest"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.3.2.v201703230956"/>
+<entry key="node-feature-name" type="xstring" value="KNIME REST Client Extension"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.rest.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.3.2.v201703230956"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="POST Request"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 3"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="841610ec-efb4-4a5a-9a2e-c19494b85f1f"/>
+</config>
+</config>

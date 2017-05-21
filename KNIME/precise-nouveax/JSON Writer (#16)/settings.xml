@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="json.writer.location"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="/home/olsonrc"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="inputColumn" type="xstring" value="JSON"/>
+<entry key="outputLocation" type="xstring" value="/home/olsonrc"/>
+<entry key="overwriteExistingFiles" type="xboolean" value="true"/>
+<entry key="extension" type="xstring" value=".json"/>
+<entry key="compressContents" type="xboolean" value="false"/>
+<entry key="compressionMethod" type="xint" value="0"/>
+<entry key="format" type="xstring" value="JSON"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.json.node.writer.JSONWriterNodeFactory"/>
+<entry key="node-name" type="xstring" value="JSON Writer"/>
+<entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.json"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.3.2.v201704041552"/>
+<entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-version" type="xstring" value="0.0.0"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="JSON Writer"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="e0b1ba97-3e41-46a0-bd4a-a53ab5cb7bd3"/>
+</config>
+</config>

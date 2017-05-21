@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="input.column" type="xstring" value="body"/>
+<entry key="remove.input.column" type="xboolean" value="true"/>
+<config key="newColumnName">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="RELEVANCE"/>
+<entry key="1" type="xstring" value="TEXT"/>
+<entry key="2" type="xstring" value="KEYWORDS"/>
+<entry key="3" type="xstring" value="SENTIMENT"/>
+<entry key="4" type="xstring" value="HOST"/>
+</config>
+<config key="jsonpath">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="$.results[*].score"/>
+<entry key="1" type="xstring" value="$.results[*].text"/>
+<entry key="2" type="xstring" value="$.results[*].keywords[*].text"/>
+<entry key="3" type="xstring" value="$.results[*].docSentiment.type"/>
+<entry key="4" type="xstring" value="$.results[*].host"/>
+</config>
+<config key="result.is.list">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xboolean" value="true"/>
+<entry key="1" type="xboolean" value="true"/>
+<entry key="2" type="xboolean" value="true"/>
+<entry key="3" type="xboolean" value="true"/>
+<entry key="4" type="xboolean" value="true"/>
+</config>
+<config key="return.paths.instead.of.values">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xboolean" value="false"/>
+<entry key="1" type="xboolean" value="false"/>
+<entry key="2" type="xboolean" value="false"/>
+<entry key="3" type="xboolean" value="false"/>
+<entry key="4" type="xboolean" value="false"/>
+</config>
+<config key="returnType">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xstring" value="Json"/>
+<entry key="1" type="xstring" value="Json"/>
+<entry key="2" type="xstring" value="Json"/>
+<entry key="3" type="xstring" value="Json"/>
+<entry key="4" type="xstring" value="Json"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.json.node.jsonpath.multi.JSONPathNodeFactory"/>
+<entry key="node-name" type="xstring" value="JSON Path"/>
+<entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.json"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.3.2.v201704041552"/>
+<entry key="node-feature-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
+<entry key="node-feature-version" type="xstring" value="0.0.0"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="JSON Path"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 9"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="77f447b3-de04-4a49-8644-56e1d0637c88"/>
+</config>
+</config>

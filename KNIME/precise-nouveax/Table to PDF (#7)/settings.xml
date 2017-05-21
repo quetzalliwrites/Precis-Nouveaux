@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="ReportAuthor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ReportAuthor" type="xstring" value="olsonrc"/>
+<config key="ReportTitel_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ReportTitel" type="xstring" value="KNIME Report"/>
+<config key="OutPutFile_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="OutPutFile" type="xstring" value="/home/olsonrc/output.pdf"/>
+<config key="DeleteDesignFile_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="DeleteDesignFile" type="xboolean" value="true"/>
+<config key="NumberOfRows_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="NumberOfRows" type="xint" value="1000"/>
+<config key="ImageHeight_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="ImageHeight" type="xstring" value=""/>
+<config key="ImageWidth_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="ImageWidth" type="xstring" value=""/>
+<config key="SizeHandle_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="SizeHandle" type="xstring" value="DEFAULT SIZE"/>
+<config key="ImageScaling_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="ImageScaling" type="xstring" value="VIEW"/>
+<config key="OverwriteFile_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="OverwriteFile" type="xboolean" value="true"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.birt.nodes.pdf.PdfReportNodeFactory"/>
+<entry key="node-name" type="xstring" value="Table to PDF"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME HTML/PDF Writer Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.birt"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.3.0.v201610201139"/>
+<entry key="node-feature-name" type="xstring" value="KNIME HTML/PDF Writer"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.birt.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.3.0.v201610201139"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table to PDF"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="702ef529-40e5-4bc1-9db0-6e666fe0e2c7"/>
+</config>
+</config>
