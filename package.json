@@ -1,10 +1,9 @@
 {
   "name": "express-web-app",
   "version": "1.0.0",
- 
-  "dependencies":
-  {
+  "dependencies": {
+    "ejs": "~1.0.0",
     "express": "~4.0.0",
-    "ejs": "~1.0.0"
+    "jsonfile": "^3.0.0"
   }
 }
