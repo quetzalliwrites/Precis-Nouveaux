@@ -8,17 +8,15 @@ module.exports = function(app) {
          
          
           var fs = require("fs");
-          console.log("\n *STARTING* \n");
-// Get content from file
-          var contents = fs.readFileSync("Row1.json");
-// Define to JSON type
+          var contents = fs.readFileSync("my_data.json");
           var jsonContent = JSON.parse(contents);
-// Get Value from JSON
           var a = jsonContent[0].TEXT;
+          var b = jsonContent[1].TEXT;
+          var c = jsonContent[2].TEXT;
          
           var articleOne = a;
-          var articleTwo = articles.getArticleTwo();
-          var articleThree = articles.getArticleThree();
+          var articleTwo = b;
+          var articleThree = c;
           
           var viewModel = {
                articleOne: articleOne,
