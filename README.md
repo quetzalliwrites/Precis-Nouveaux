@@ -1,5 +1,8 @@
 # Précis-Nouveaux
 
+## To view...
+Start your Node server and go to: http://localhost:8080/phase3
+
 Slack Channel: 
 https://sea-expeditionhacks.slack.com/messages/C5F94RLC8/search/precis%20nouveaux/ 
 
