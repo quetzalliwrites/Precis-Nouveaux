@@ -9,6 +9,9 @@ https://sea-expeditionhacks.slack.com/messages/C5F94RLC8/search/precis%20nouveau
 DevPost Team Project Submission: 
 https://devpost.com/software/precisnouveaux-aq61wb
 
+Awards Announcements Filmed Live:
+https://www.pscp.tv/w/1ypJdrorWRgKW
+
 
 
 # PART I -  Knime Analytics Platform Workflow 
